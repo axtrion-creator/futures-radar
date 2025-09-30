@@ -1,0 +1,51 @@
+{
+  "meta": {"name": "Healthcare Radar Sample", "exported_at": "2025-09-30"},
+  "items": [
+    {
+      "id": "ws-ambient-sensing-homes",
+      "title": "Ambient fall-risk sensing in elder home care pilots",
+      "type": "weak signal",
+      "quadrant": "Technological",
+      "ring": "Far",
+      "summary": "Small pilots use privacy-preserving, on-device mmWave/vision sensors to detect gait changes and near-falls in home care apartments; results used to trigger proactive visits.",
+      "sources": [
+        {"label": "Pilot news", "url": "https://example.com/ambient-sensing-pilot"}
+      ],
+      "updated_at": "2025-09-15",
+      "confidence": 2,
+      "impact": 3,
+      "notes": "Weak signal due to small scale + uncertain scaling economics."
+    },
+    {
+      "id": "tr-ai-triage-primary-care",
+      "title": "AI-supported triage & documentation in primary care",
+      "type": "trend",
+      "quadrant": "Technological",
+      "ring": "Near",
+      "summary": "Speech-to-text + clinical summarization reduce admin burden and speed triage; vendor rollouts expanding across outpatient clinics; early studies show time savings and improved note quality.",
+      "sources": [
+        {"label": "Industry rollout", "url": "https://example.com/ai-triage-rollout"},
+        {"label": "Study summary", "url": "https://example.com/ai-scribe-study"}
+      ],
+      "updated_at": "2025-09-20",
+      "confidence": 4,
+      "impact": 4,
+      "notes": "Adoption gated by privacy & workflow fit; measurable ROI emerging."
+    },
+    {
+      "id": "wc-geomagnetic-ehr-outage",
+      "title": "Severe solar storm causes regional EHR cloud outage",
+      "type": "wild card",
+      "quadrant": "Environmental",
+      "ring": "Far",
+      "summary": "A geomagnetic superstorm disrupts data centers and telecoms leading to multi-day loss of access to regional EHRs and ePrescription services; emergency paper fallbacks and manual reconciliation required.",
+      "sources": [
+        {"label": "Space weather brief", "url": "https://example.com/space-weather-risk"}
+      ],
+      "updated_at": "2025-09-10",
+      "confidence": 1,
+      "impact": 5,
+      "notes": "Low probability, very high impact; resilience & offline workflows relevant."
+    }
+  ]
+}
