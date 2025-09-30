@@ -1,0 +1,34 @@
+{
+  "title": "Future-Ready Business Trend Radar",
+  "palette": {
+    "bg": "#0E1621",
+    "grid": "#32475B",
+    "trend": "#89A1C7",
+    "weak signal": "#184690",
+    "wild card": "#D00909"
+  },
+  "quadrants": [
+    "Political",
+    "Environmental",
+    "Societal",
+    "Technological",
+    "Legal",
+    "Ethical"
+  ],
+  "rings": [
+    {"name": "Near", "radius": 0.33},
+    {"name": "Middle", "radius": 0.66},
+    {"name": "Far", "radius": 1.0}
+  ],
+  "geometry": {
+    "width": 1400,
+    "height": 800,
+    "margin": 32,
+    "semiCircle": true
+  },
+  "placement": {
+    "jitter": true,
+    "seeded": true,
+    "allowOverrides": true
+  }
+}
